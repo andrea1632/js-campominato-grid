@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --boxWidth: calc(100% / 10);
+    --boxHeight: calc(100% / 10);
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -31,4 +35,8 @@ footer{
 main{
     background-color: #7FFFD4;
     padding: 100px 0;
+}
+#grid{
+    margin: auto;
+    display: flex;
 }
