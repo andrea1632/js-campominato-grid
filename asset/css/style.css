@@ -43,9 +43,31 @@ main{
     height: 60vh;
     width: 60vh;
 }
-.box{
+.bgLightBlue{
+    background-color: blue;
+    color: white;
+}
+.boxEasy{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.boxMedium{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxHard{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
