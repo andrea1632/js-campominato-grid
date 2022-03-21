@@ -39,4 +39,13 @@ main{
 #grid{
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
+    height: 60vh;
+    width: 60vh;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
 }
